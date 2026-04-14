@@ -4,11 +4,19 @@ A responsive, accessible, and testable Profile Card built with HTML, CSS, and Ja
 
 ## Live Demo
 
-Add your deployed link here.
+https://hngstackfrontend1b.vercel.app/
 
 ## GitHub Repository
 
-Add your repository link here.
+https://github.com/lordrock/hngstackfrontend1b
+
+## GitHub Main Root
+
+https://github.com/lordrock/hngstackfrontend1/Desktop/FrontendStack/stackcard/profile-card
+
+## Github Repository for both Task
+
+https://github.com/lordrock/hngstackfrontend1/commits/main/
 
 ## Features
 
