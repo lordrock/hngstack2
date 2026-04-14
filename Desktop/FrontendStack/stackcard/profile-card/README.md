@@ -12,11 +12,11 @@ https://github.com/lordrock/hngstackfrontend1b
 
 ## GitHub Main Root
 
-https://github.com/lordrock/hngstackfrontend1/Desktop/FrontendStack/stackcard/profile-card
+https://github.com/lordrock/hngstackfrontend1/tree/main/Desktop/FrontendStack/stackcard/profile-card
 
 ## Github Repository for both Task
 
-https://github.com/lordrock/hngstackfrontend1/commits/main/
+https://github.com/lordrock/hngstackfrontend1/tree/main/Desktop/FrontendStack/stackcard
 
 ## Features
 
