@@ -31,9 +31,6 @@ It accepts a name, enriches it using multiple third-party APIs, stores the proce
 - Agify: `https://api.agify.io?name={name}`
 - Nationalize: `https://api.nationalize.io?name={name}`
 
-## Installation
-
-https://github.com/lordrock/your-repo-name.git
 
 ## Development mode
 
@@ -74,9 +71,16 @@ Success Response (201)
 
 and many more results
 
-## Deployment : Base URL:
+## Installation
 
-https://your-live-app-url.com
+https://github.com/lordrock/hngstack1/tree/main/Desktop/HNG-Backend/stack1
+
+## Deployment : Base URL:
+https://hngstack1-production.up.railway.app
+https://hngstack1-production.up.railway.app/api/profiles
+
+## End-point
+/api/profiles
 
 ## Author
 
