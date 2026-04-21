@@ -1,0 +1,70 @@
+@import "./styles/layout.css";
+@import "./styles/invoices.css";
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-purple: #7c5dfa;
+  --color-purple-hover: #9277ff;
+
+  --color-bg: #f8f8fb;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f9fafe;
+  --color-text: #0c0e16;
+  --color-muted: #888eb0;
+  --color-border: #dfe3fa;
+
+  --color-success-bg: rgba(51, 214, 159, 0.08);
+  --color-success-text: #33d69f;
+  --color-warning-bg: rgba(255, 143, 0, 0.08);
+  --color-warning-text: #ff8f00;
+  --color-draft-bg: rgba(55, 59, 83, 0.08);
+  --color-draft-text: #373b53;
+
+  --color-sidebar: #373b53;
+  --color-sidebar-border: #494e6e;
+  --color-overlay: rgba(0, 0, 0, 0.45);
+  --color-shadow: rgba(72, 84, 159, 0.1);
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #141625;
+  --color-surface: #1e2139;
+  --color-surface-soft: #252945;
+  --color-text: #ffffff;
+  --color-muted: #dfe3fa;
+  --color-border: #252945;
+
+  --color-success-bg: rgba(51, 214, 159, 0.12);
+  --color-warning-bg: rgba(255, 143, 0, 0.12);
+  --color-draft-bg: rgba(223, 227, 250, 0.08);
+  --color-draft-text: #dfe3fa;
+
+  --color-sidebar: #1e2139;
+  --color-sidebar-border: #494e6e;
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --color-shadow: rgba(0, 0, 0, 0.18);
+}
+
+body {
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
