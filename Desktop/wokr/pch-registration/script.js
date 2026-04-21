@@ -227,7 +227,7 @@
     // Terms & Conditions
     const terms = document.getElementById('terms').checked;
     if (!terms) {
-      showError('terms', 'You must agree to the Terms and Conditions to register.');
+      showError('terms', 'You must confirm the agreement before submitting.');
       isValid = false;
     }
 
