@@ -34,8 +34,7 @@ The system is designed to help clients search and segment profile datasets effic
 
 ## Installation 
 
-https://github.com/lordrock/hngstack2
-cd your-repo-name
+https://github.com/lordrock/hngstack2/tree/main/Desktop/HNG-Backend/stack2
 
 ## Install dependencies:
 
@@ -44,7 +43,7 @@ Running the App
 
 ## Development mode:
 
-npm run dev
+npm start
 
 ## Production mode:
 
@@ -65,7 +64,7 @@ GET /api/profiles
 
 ## Deployment - Base URL:
 
-https://your-live-app-url.com
+https://hngstack2.onrender.com/
 
 ## Author
 
